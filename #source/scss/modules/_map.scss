@@ -1,0 +1,300 @@
+// map
+.map {
+    margin-bottom: 130px;
+    @media (max-width:991px) {
+        margin-bottom: 100px;
+    }
+    @media (max-width:767px) {
+        margin-bottom: 90px;
+    }
+    @media (max-width:567px) {
+        margin-bottom: 80px;
+    }
+
+    &__container {
+        h3 {
+            font-family: var(--third-family);
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 100%;
+            text-align: left;
+            color: var(--dark-blue);
+
+            margin-bottom: 52px;
+
+            @media (max-width:1660px) {
+                font-size: 38px;
+            }
+            @media (max-width:1440px) {
+                font-size: 36px;
+            }
+            @media (max-width:1380px) {
+                font-size: 32px;
+            }
+            @media (max-width:991px) {
+                font-size: 48px;
+                
+                margin-bottom: 40px;
+            }
+            @media (max-width:767px) {
+                font-size: 36px;
+                margin-bottom: 30px;
+            }
+            @media (max-width:567px) {
+                font-size: 32px;
+                margin-bottom: 20px;
+            }
+            @media (max-width:467px) {
+                font-size: 28px;
+                margin-bottom: 16px;
+            }
+            @media (max-width:425px) {
+                font-size: 24px;
+            }
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        @media (max-width:991px) {
+            flex-direction: column;
+        }
+        
+
+        .section-link.secondary {
+            display: none;
+            @media (max-width:467px) {
+                display: flex;
+            }
+        }
+
+    }
+
+    &__link {
+
+        
+        left: 32px;
+        top: 24px;
+
+        font-family: var(--font-family);
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 0%;
+        color: var(--light-blue);
+
+        
+        background: var(--dark-blue);
+        border-radius: 30px;
+        padding: 15px 20px 15px 25px;
+        transition: .2s ease;
+
+        @media (max-width:1920px) {
+            padding: 15px 20px 15px 25px;
+        }
+        @media (max-width:467px) {
+            margin: 0 auto;
+            width: 100%;
+            
+        }
+        
+
+        
+        
+
+        &:hover {
+            transition: .2s ease;
+            background: var(--blue);
+        }  
+}
+
+    &-2gis {
+        width: 100%;
+        max-width: 1470px;
+        position: relative;
+
+        @media (max-width:2072px) {
+            max-width: 1300px;
+        }
+        @media (max-width:1920px) {
+            max-width: 951px;
+        }
+        @media (max-width:1900px) {
+            max-width: 800px;
+        }
+        @media (max-width:991px) {
+            max-width: 100%;
+        }
+
+        @media (max-width:467px) {
+            display: none;
+        }
+
+        &__link {
+
+                position: absolute;
+                left: 22px;
+                top: 32px;
+
+
+                
+                
+               
+                transition: .2s ease;
+
+                @media (max-width:467px) {
+                    display: none;
+                }
+
+                &:hover {
+                    transition: .2s ease;
+                    
+
+                    a {
+                        transition: .2s ease;
+                        color: var(--white);
+                        background-color: var(--blue);
+                    }
+
+                }
+
+                & > a {
+                    font-family: var(--font-family);
+                    font-weight: 300;
+                    font-size: 20px;
+                    line-height: 0%;
+                    color: var(--light-blue);
+                    background: var(--dark-blue);
+                    border-radius: 30px;
+                    
+                    padding: 15px 20px 15px 25px;
+
+                    transition: .2s ease;
+
+                    @media (max-width:1920px) {
+                        padding: 15px 20px 15px 25px;
+                    }
+                }
+            
+        }
+    }
+
+    
+}
+
+.scroll-list {
+    
+    @media (max-width:1660px) {
+        width: 100%;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        max-height: 456px;
+
+        overflow-y: scroll;
+        gap: 32px;
+
+        @media (max-width:1920px) {
+            max-height: 399px;
+        }
+        @media (max-width:1660px) {
+            max-height: 432px;
+        }
+        @media (max-width:1440px) {
+            max-height: 485px;
+
+        }
+        @media (max-width:991px) {
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+        }        
+        @media (max-width:767px) {
+            display: flex;
+            flex-direction: column;
+            max-height: unset;
+        }
+
+        //стили скролбара
+        &::-webkit-scrollbar {
+
+            width: 10px;
+            background-color: #F5F5F5;
+
+            &-thumb {
+            
+                border-radius: 12px;
+                
+                background-color: #2c3e6e8e;
+                
+                
+            }
+
+            &-track {
+            
+               
+                border-radius: 10px;
+                background-color: #F5F5F5;
+            }
+        }
+    }   
+}
+
+.geo-card {
+    display: flex;
+    gap: 20px;
+
+    @media (max-width:567px) {
+        gap: 15px;
+    }
+
+    &__img {
+        img {
+            @media (max-width:991px) {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                border-radius: 20px;
+            }
+        }
+    }
+
+    &__info {
+        h5 {
+            font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 24px;
+            color: var(--gray-65);
+
+            @media (max-width:1660px) {
+                font-size: 22px;
+            }
+            @media (max-width:567px) {
+                font-size: 18px;
+            }
+            @media (max-width:467px) {
+                font-size: 16px;
+            }
+            
+
+        }
+        h6 {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 20px;
+            color: var(--gray-65);
+
+            @media (max-width:1660px) {
+                font-size: 18px;
+            }
+            @media (max-width:567px) {
+                font-size: 16px;
+            }
+            @media (max-width:467px) {
+                font-size: 14px;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- seo -->
+    <meta name="description" lang="ru" content="...">
+    <meta name="keywords" content="...">
+    <meta name="language" content="Russian">
+    <meta name="geo.region" content="RU">
+    <meta name="geo.placename" content="...">
+
+
+    <!-- иконка сайта -->
+    <!-- Для браузеров -->
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+
+    <!-- Для iOS -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+
+    <!-- Другие метаданные -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    
+    <!-- mmenu.js styles -->
+    <link href="./css/mmenu-light.css" media="screen" rel="stylesheet" type="text/css" />
+
+    <!-- styles css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    
+
+</head>
+<body>
+    
+
+<!-- fixed-top -->
+<header class="header header--index fixed-top secondary">
+    <div class="container header__container">
+        <div class="header-wrapper row">
+            <div class="col-lg-2 col-sm-5 col-6 logo-wrapper">
+                <a href="/" class="logo">
+                    <img src="./img/header-logo.svg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-2 col-sm-5 col-6 catalog-button-inner">
+                <ul class="menu-list">
+                    <li class="menu-item menu-item-has-children nav-item dropdown catalog-button-secondary">
+                        <a href="#" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false" id="dropdown-8152" class="nav-link dropdown-toggle secondary">
+                            Каталог
+                            
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="menu-item nav-item"><a href="#" class="nav-link">Холодное копчение</a></li>
+                            <li class="menu-item nav-item"><a href="#" class="nav-link">Горячее копчение</a></li>
+                            <li class="menu-item nav-item"><a href="#" class="nav-link">Свежемороженная рыба</a></li>
+                            <li class="menu-item nav-item"><a href="#" class="nav-link">Слабосоленая рыба</a></li>
+                            <li class="menu-item nav-item"><a href="#" class="nav-link">Пресервы</a></li>
+                            <li class="menu-item nav-item"><a href="#" class="nav-link">Пресервы</a></li>
+
+                            <li class="menu-item nav-item"><a href="#" class="nav-link">Морепродукты</a></li>
+                            <li class="menu-item nav-item"><a href="#" class="nav-link">Икра</a></li>
+                            <li class="menu-item nav-item"><a href="#" class="nav-link">Салаты рыбоовощные</a></li>
+                            <li class="menu-item nav-item"><a href="#" class="nav-link">Овощи в маринаде</a></li>
+                            <li class="menu-item nav-item"><a href="#" class="nav-link">Полуфабрикаты</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-cart col-1 ">
+                <div class="menu-item nav-item">
+
+                    <a href="" class="nav-link nav-cart">
+                        <svg width="38" height="39" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.47815 0.66626H7.33808C9.05667 0.66626 10.5553 1.8345 10.9747 3.50114L12.8746 11.0513H35.8542C37.0776 11.0513 37.9234 12.2746 37.4914 13.4192L34.2469 22.0161C33.7564 21.8971 33.251 21.8162 32.734 21.7767L36.0881 12.8895C36.1498 12.726 36.0289 12.5513 35.8542 12.5513H13.2521L16.7152 26.3136H23.8809C23.592 26.7879 23.3435 27.2895 23.1401 27.8136H17.0927L17.906 31.0457C18.1576 32.0457 19.0568 32.7466 20.088 32.7466H22.6175C22.8027 33.9159 23.2012 35.0141 23.7719 36.0003C23.7711 37.6564 22.4282 38.9988 20.7719 38.9988C19.115 38.9988 17.7719 37.6556 17.7719 35.9988C17.7719 35.1998 18.0842 34.4738 18.5934 33.9362C17.5515 33.483 16.7421 32.5671 16.4513 31.4117L9.52005 3.86719C9.26842 2.86721 8.36923 2.16626 7.33808 2.16626H3.00621L3.00647 2.19464C3.00647 3.03874 2.32219 3.72302 1.47809 3.72302C0.633987 3.72302 -0.050293 3.03874 -0.050293 2.19464C-0.050293 1.35054 0.634048 0.66626 1.47815 0.66626ZM28.2693 37.1728C28.1158 36.8122 28.0309 36.4154 28.0309 35.9988C28.0309 35.3447 28.2402 34.7396 28.5955 34.2466H25.6727C25.4481 33.7734 25.275 33.271 25.1607 32.7466H33.9368C34.351 32.7466 34.6868 33.0824 34.6868 33.4966C34.6868 33.9108 34.351 34.2466 33.9368 34.2466H33.4663C33.8216 34.7396 34.0309 35.3447 34.0309 35.9988C34.0309 36.8483 33.6778 37.6154 33.1103 38.1612C32.7487 38.2188 32.3779 38.2488 32.0001 38.2488C30.6286 38.2488 29.3493 37.8544 28.2693 37.1728ZM33.3549 24.3798C32.9165 24.2938 32.4636 24.2488 32.0001 24.2488C31.9331 24.2488 31.8664 24.2497 31.8 24.2516L31.0828 26.1519C31.0461 26.2492 30.9529 26.3136 30.8489 26.3136H27.0358C26.5932 26.7587 26.2102 27.2631 25.8995 27.8136H30.8489C31.577 27.8136 32.2291 27.3628 32.4862 26.6815L33.3549 24.3798ZM20.7719 34.4988C19.9434 34.4988 19.2719 35.1704 19.2719 35.9988C19.2719 36.8272 19.9434 37.4988 20.7719 37.4988C21.6003 37.4988 22.2719 36.8272 22.2719 35.9988C22.2719 35.1704 21.6003 34.4988 20.7719 34.4988ZM31.0309 34.4988C30.2025 34.4988 29.5309 35.1704 29.5309 35.9988C29.5309 36.8272 30.2025 37.4988 31.0309 37.4988C31.8593 37.4988 32.5309 36.8272 32.5309 35.9988C32.5309 35.1704 31.8593 34.4988 31.0309 34.4988Z" fill="#2C3E6E"></path>
+                        </svg>
+                    </a>
+
+                </div>
+            </div>
+            <div class="col-lg-10 col-sm-5 col-4 top-menu-wrapper hidden">
+                <nav class="top-menu" role="navigation" id="mainMenu">
+                    <div class="header-menu header-menu--mobile d-lg-none d-flex">
+                        <div class="logo-wrapper">
+                            <a href="/" class="mm-logo">
+                                <img src="./img/header-logo.svg" alt="">
+                            </a>
+                        </div>
+                        <button type="button" class="close-menu-button" aria-label="Close">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 30L30 2" stroke="#2C3E6E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M30 30L2 2" stroke="#2C3E6E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </div>
+                    <ul class="menu-list">
+                        <li class="menu-item menu-item-has-children nav-item dropdown catalog-button">
+                            <a href="#" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false" id="dropdown-8152" class="nav-link dropdown-toggle secondary">
+                                Каталог
+                                
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="menu-item nav-item"><a href="#" class="nav-link">Холодное копчение</a></li>
+                                <li class="menu-item nav-item"><a href="#" class="nav-link">Горячее копчение</a></li>
+                                <li class="menu-item nav-item"><a href="#" class="nav-link">Свежемороженная рыба</a></li>
+                                <li class="menu-item nav-item"><a href="#" class="nav-link">Слабосоленая рыба</a></li>
+                                <li class="menu-item nav-item"><a href="#" class="nav-link">Пресервы</a></li>
+                                <li class="menu-item nav-item"><a href="#" class="nav-link">Пресервы</a></li>
+
+                                <li class="menu-item nav-item"><a href="#" class="nav-link">Морепродукты</a></li>
+                                <li class="menu-item nav-item"><a href="#" class="nav-link">Икра</a></li>
+                                <li class="menu-item nav-item"><a href="#" class="nav-link">Салаты рыбоовощные</a></li>
+                                <li class="menu-item nav-item"><a href="#" class="nav-link">Овощи в маринаде</a></li>
+                                <li class="menu-item nav-item"><a href="#" class="nav-link">Полуфабрикаты</a></li>
+
+                            </ul>
+                        </li>
+                        
+                        <li class="menu-item nav-item"><a href="" class="nav-link">Акции</a></li>
+
+                        <li class="menu-item menu-item-has-children nav-item dropdown">
+                            <a href="#" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false" id="dropdown-8152" class="nav-link dropdown-toggle">
+                                Новинки
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="menu-item nav-item"><a href="#" class="nav-link">Инсталляции</a></li>
+                                <li class="menu-item nav-item"><a href="#" class="nav-link">Модульные дома</a></li>
+                                <li class="menu-item nav-item"><a href="#" class="nav-link">Детские площадки</a></li>
+                                <li class="menu-item nav-item"><a href="#" class="nav-link">Спортивные объекты</a></li>
+                                <li class="menu-item nav-item"><a href="#" class="nav-link">Все проекты</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="menu-item nav-item"><a href="" class="nav-link">Блог</a></li>
+                        
+                        <li class="menu-item nav-item"><a href="" class="nav-link">Новости</a></li>
+
+                        <li class="menu-item nav-item"><a href="" class="nav-link">Кулинарная книга</a></li>
+
+                        <li class="menu-item nav-item"><a href="" class="nav-link">О компании</a></li>
+
+                        <li class="menu-item nav-item"><a href="" class="nav-link">Контакты</a></li>
+
+                        <li class="menu-item nav-item">
+
+                            <a href="" class="nav-link">
+                                <svg width="38" height="39" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.47815 0.66626H7.33808C9.05667 0.66626 10.5553 1.8345 10.9747 3.50114L12.8746 11.0513H35.8542C37.0776 11.0513 37.9234 12.2746 37.4914 13.4192L34.2469 22.0161C33.7564 21.8971 33.251 21.8162 32.734 21.7767L36.0881 12.8895C36.1498 12.726 36.0289 12.5513 35.8542 12.5513H13.2521L16.7152 26.3136H23.8809C23.592 26.7879 23.3435 27.2895 23.1401 27.8136H17.0927L17.906 31.0457C18.1576 32.0457 19.0568 32.7466 20.088 32.7466H22.6175C22.8027 33.9159 23.2012 35.0141 23.7719 36.0003C23.7711 37.6564 22.4282 38.9988 20.7719 38.9988C19.115 38.9988 17.7719 37.6556 17.7719 35.9988C17.7719 35.1998 18.0842 34.4738 18.5934 33.9362C17.5515 33.483 16.7421 32.5671 16.4513 31.4117L9.52005 3.86719C9.26842 2.86721 8.36923 2.16626 7.33808 2.16626H3.00621L3.00647 2.19464C3.00647 3.03874 2.32219 3.72302 1.47809 3.72302C0.633987 3.72302 -0.050293 3.03874 -0.050293 2.19464C-0.050293 1.35054 0.634048 0.66626 1.47815 0.66626ZM28.2693 37.1728C28.1158 36.8122 28.0309 36.4154 28.0309 35.9988C28.0309 35.3447 28.2402 34.7396 28.5955 34.2466H25.6727C25.4481 33.7734 25.275 33.271 25.1607 32.7466H33.9368C34.351 32.7466 34.6868 33.0824 34.6868 33.4966C34.6868 33.9108 34.351 34.2466 33.9368 34.2466H33.4663C33.8216 34.7396 34.0309 35.3447 34.0309 35.9988C34.0309 36.8483 33.6778 37.6154 33.1103 38.1612C32.7487 38.2188 32.3779 38.2488 32.0001 38.2488C30.6286 38.2488 29.3493 37.8544 28.2693 37.1728ZM33.3549 24.3798C32.9165 24.2938 32.4636 24.2488 32.0001 24.2488C31.9331 24.2488 31.8664 24.2497 31.8 24.2516L31.0828 26.1519C31.0461 26.2492 30.9529 26.3136 30.8489 26.3136H27.0358C26.5932 26.7587 26.2102 27.2631 25.8995 27.8136H30.8489C31.577 27.8136 32.2291 27.3628 32.4862 26.6815L33.3549 24.3798ZM20.7719 34.4988C19.9434 34.4988 19.2719 35.1704 19.2719 35.9988C19.2719 36.8272 19.9434 37.4988 20.7719 37.4988C21.6003 37.4988 22.2719 36.8272 22.2719 35.9988C22.2719 35.1704 21.6003 34.4988 20.7719 34.4988ZM31.0309 34.4988C30.2025 34.4988 29.5309 35.1704 29.5309 35.9988C29.5309 36.8272 30.2025 37.4988 31.0309 37.4988C31.8593 37.4988 32.5309 36.8272 32.5309 35.9988C32.5309 35.1704 31.8593 34.4988 31.0309 34.4988Z" fill="#2C3E6E" />
+                                </svg>
+                            </a>
+
+                        </li>
+                        
+
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="col-2 justify-content-end  navbar-toggler-wrapper">
+                <a href="#mainMenu" class="navbar-toggler show" type="button" aria-label="Раскрыть навигацию">
+                    
+                    <svg class="closed-burger" width="55" height="42" viewBox="0 0 55 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.43286 7.26379L15.0746 2L27.7164 7.26379L40.3582 2L53 7.26379" stroke="#2C3E6E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M2.43286 23.8512L15.0746 18.1487L27.7164 23.8512L40.3582 18.1487L53 23.8512" stroke="#2C3E6E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M2.43286 40L15.0746 34.7362L27.7164 40L40.3582 34.7362L53 40" stroke="#2C3E6E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+                    <!-- <svg class="opened-burger" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 30L30 2" stroke="#2C3E6E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M30 30L2 2" stroke="#2C3E6E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg> -->
+
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <main>
+
+        
+        <section class="catalog-hero">
+
+            <div class="container catalog-hero__container">
+
+                <div class="catalog-hero__wrapper">
+                    
+                    <div class="catalog-hero__img">
+                        <picture>
+                            <source srcset="./img/catalog-hero.jpg" media="(min-width: 992px)">
+                            <source srcset="./img/catalog-hero-tablet.jpg" media="(min-width: 568px)">
+                            <img src="./img/catalog-hero-mobile.jpg" alt="Catalog Hero Image">
+                          </picture>
+                          
+
+                        <div class="catalog-hero__text">
+
+                            <h5>
+                                Некая новая продукция 
+                                или УТП
+                            </h5>
+        
+                            <a href="">
+                                Подробнее
+                                <svg width="43" height="28" viewBox="0 0 43 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 14H42M42 14L32.5 1M42 14L32.5 27" stroke="#ECF6FB"></path>
+                                </svg>
+                            </a>
+    
+                        </div>
+
+                    </div>                    
+
+                    
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="catalog inner">
+
+            <div class="container catalog__container">
+
+                <h3>
+                    КАТАЛОГ ПРОДУКЦИИ
+                </h3>
+
+               <div class="catalog__wrapper">
+
+                <div class="catalog-filter">
+
+                    <div class="catalog-filter__item">
+                        
+                        <a href="">
+                            Холодное копчение
+                        </a>
+
+                    </div>
+
+                    <div class="catalog-filter__item">
+                        
+                        <a href="">
+                            Горячее копчение
+                        </a>
+
+                    </div>
+
+                    <div class="catalog-filter__item">
+                        
+                        <a href="">
+                            Свежемороженная рыба
+                        </a>
+
+                    </div>
+
+                    <div class="catalog-filter__item">
+                        
+                        <a href="">
+                            Слабосоленая рыба
+                        </a>
+
+                    </div>
+
+                    <div class="catalog-filter__item">
+                        
+                        <a href="">
+                            Пресервы
+                        </a>
+
+                    </div>
+
+                    <div class="catalog-filter__item">
+                        
+                        <a href="">
+                            Морепродукты
+                        </a>
+
+                    </div>
+
+
+                    <div class="catalog-filter__item">
+                        
+                        <a href="">
+                            Икра
+                        </a>
+
+                    </div>
+
+                    <div class="catalog-filter__item active">
+                        
+                        <a href="">
+                            Салаты рыбоовощные
+                        </a>
+
+                    </div>
+
+                    <div class="catalog-filter__item">
+                        
+                        <a href="">
+                            Овощи в маринаде
+                        </a>
+
+                    </div>
+
+                    <div class="catalog-filter__item">
+                        
+                        <a href="">
+                            Полуфабрикаты
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="catalog-filter mobile">
+                    <img src="./img/dropdown-arrow-blue.png" alt="">
+                    <select id="product-select" onchange="selectProduct()">
+                        
+                        <option value="">Выберите товар </option>
+                        <option value="Холодное копчение">Холодное копчение</option>
+                        <option value="Горячее копчение">Горячее копчение</option>
+                        <option value="Свежемороженная рыба">Свежемороженная рыба</option>
+                        <option value="Слабосоленая рыба">Слабосоленая рыба</option>
+                        <option value="Пресервы">Пресервы</option>
+                        <option value="Морепродукты">Морепродукты</option>
+                        <option value="Икра">Икра</option>
+                        <option value="Салаты рыбоовощные">Салаты рыбоовощные</option>
+                        <option value="Овощи в маринаде">Овощи в маринаде</option>
+                        <option value="Полуфабрикаты">Полуфабрикаты</option>
+                    </select>
+                </div>
+                
+
+                <div class="catalog__grid row">
+
+                    <div class="catalog__row main row col-md-12">
+
+                        <div class="catalog-card col-sm-2">
+                            <div class="catalog-card__img">
+                                <a href="">
+                                    <img src="./img/product-1-sm.jpg" alt="">
+                                </a>
+                            </div>
+                            <h5>
+                                <a href="">
+                                    Нерка холодного копчения калтыки
+                                </a>
+                            </h5>
+                            <h6>цена за 1 кг.</h6>
+                            <div class="catalog-card__price">
+                                <p>459 ₽</p>
+                                <div class="add-to-cart">
+                                    <div class="counter-container" id="counter-container-1">
+                                        <button class="counter-button minus" onclick="decrement(1)">
+                                            <svg width="24" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 1H24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                        <span class="counterValue" id="counterValue-1" onclick="increment(1)">0</span>
+                                        <p class="counterValue" id="counterValue-1" onclick="increment(1)">В корзину</p>
+                                        <button class="counter-button plus" onclick="increment(1)">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 12H24" stroke="#FEFEFE" stroke-width="2" />
+                                                <path d="M12 0L12 24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="catalog-card col-sm-2">
+                            <div class="catalog-card__img">
+                                <a href="">
+                                    <img src="./img/product-1-sm.jpg" alt="">
+                                </a>
+                            </div>
+                            <h5>
+                                <a href="">
+                                    Нерка холодного копчения калтыки
+                                </a>
+                            </h5>
+                            <h6>цена за 1 кг.</h6>
+                            <div class="catalog-card__price">
+                                <p>459 ₽</p>
+                                <div class="add-to-cart">
+                                    <div class="counter-container" id="counter-container-2">
+                                        <button class="counter-button minus" onclick="decrement(2)">
+                                            <svg width="24" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 1H24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                        <span class="counterValue" id="counterValue-2" onclick="increment(2)">0</span>
+                                        <p class="counterValue" id="counterValue-2" onclick="increment(2)">В корзину</p>
+                                        <button class="counter-button plus" onclick="increment(2)">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 12H24" stroke="#FEFEFE" stroke-width="2" />
+                                                <path d="M12 0L12 24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="catalog-card col-sm-2">
+                            <div class="catalog-card__img">
+                                <a href="">
+                                    <img src="./img/product-1-sm.jpg" alt="">
+                                </a>
+                            </div>
+                            <h5>
+                                <a href="">
+                                    Нерка холодного копчения калтыки
+                                </a>
+                            </h5>
+                            <h6>цена за 1 кг.</h6>
+                            <div class="catalog-card__price">
+                                <p>459 ₽</p>
+                                <div class="add-to-cart">
+                                    <div class="counter-container" id="counter-container-3">
+                                        <button class="counter-button minus" onclick="decrement(3)">
+                                            <svg width="24" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 1H24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                        <span class="counterValue" id="counterValue-3" onclick="increment(3)">0</span>
+                                        <p class="counterValue" id="counterValue-3" onclick="increment(3)">В корзину</p>
+                                        <button class="counter-button plus" onclick="increment(3)">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 12H24" stroke="#FEFEFE" stroke-width="2" />
+                                                <path d="M12 0L12 24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="catalog-card col-sm-2">
+                            <div class="catalog-card__img">
+                                <a href="">
+                                    <img src="./img/product-1-sm.jpg" alt="">
+                                </a>
+                            </div>
+                            <h5>
+                                <a href="">
+                                    Нерка холодного копчения калтыки
+                                </a>
+                            </h5>
+                            <h6>цена за 1 кг.</h6>
+                            <div class="catalog-card__price">
+                                <p>459 ₽</p>
+                                <div class="add-to-cart">
+                                    <div class="counter-container" id="counter-container-4">
+                                        <button class="counter-button minus" onclick="decrement(4)">
+                                            <svg width="24" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 1H24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                        <span class="counterValue" id="counterValue-4" onclick="increment(4)">0</span>
+                                        <p class="counterValue" id="counterValue-4" onclick="increment(4)">В корзину</p>
+                                        <button class="counter-button plus" onclick="increment(4)">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 12H24" stroke="#FEFEFE" stroke-width="2" />
+                                                <path d="M12 0L12 24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="catalog-card col-sm-2">
+                            <div class="catalog-card__img">
+                                <a href="">
+                                    <img src="./img/product-1-sm.jpg" alt="">
+                                </a>
+                            </div>
+                            <h5>
+                                <a href="">
+                                    Нерка холодного копчения калтыки
+                                </a>
+                            </h5>
+                            <h6>цена за 1 кг.</h6>
+                            <div class="catalog-card__price">
+                                <p>459 ₽</p>
+                                <div class="add-to-cart">
+                                    <div class="counter-container" id="counter-container-5">
+                                        <button class="counter-button minus" onclick="decrement(5)">
+                                            <svg width="24" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 1H24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                        <span class="counterValue" id="counterValue-5" onclick="increment(5)">0</span>
+                                        <p class="counterValue" id="counterValue-5" onclick="increment(5)">В корзину</p>
+                                        <button class="counter-button plus" onclick="increment(5)">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 12H24" stroke="#FEFEFE" stroke-width="2" />
+                                                <path d="M12 0L12 24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="catalog-card col-sm-2">
+                            <div class="catalog-card__img">
+                                <a href="">
+                                    <img src="./img/product-1-sm.jpg" alt="">
+                                </a>
+                            </div>
+                            <h5>
+                                <a href="">
+                                    Нерка холодного копчения калтыки
+                                </a>
+                            </h5>
+                            <h6>цена за 1 кг.</h6>
+                            <div class="catalog-card__price">
+                                <p>459 ₽</p>
+                                <div class="add-to-cart">
+                                    <div class="counter-container" id="counter-container-6">
+                                        <button class="counter-button minus" onclick="decrement(6)">
+                                            <svg width="24" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 1H24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                        <span class="counterValue" id="counterValue-6" onclick="increment(6)">0</span>
+                                        <p class="counterValue" id="counterValue-6" onclick="increment(6)">В корзину</p>
+                                        <button class="counter-button plus" onclick="increment(6)">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 12H24" stroke="#FEFEFE" stroke-width="2" />
+                                                <path d="M12 0L12 24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="catalog-card col-sm-2">
+                            <div class="catalog-card__img">
+                                <a href="">
+                                    <img src="./img/product-1-sm.jpg" alt="">
+                                </a>
+                            </div>
+                            <h5>
+                                <a href="">
+                                    Нерка холодного копчения калтыки
+                                </a>
+                            </h5>
+                            <h6>цена за 1 кг.</h6>
+                            <div class="catalog-card__price">
+                                <p>459 ₽</p>
+                                <div class="add-to-cart">
+                                    <div class="counter-container" id="counter-container-7">
+                                        <button class="counter-button minus" onclick="decrement(7)">
+                                            <svg width="24" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 1H24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                        <span class="counterValue" id="counterValue-7" onclick="increment(7)">0</span>
+                                        <p class="counterValue" id="counterValue-7" onclick="increment(7)">В корзину</p>
+                                        <button class="counter-button plus" onclick="increment(7)">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 12H24" stroke="#FEFEFE" stroke-width="2" />
+                                                <path d="M12 0L12 24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="catalog-card col-sm-2">
+                            <div class="catalog-card__img">
+                                <a href="">
+                                    <img src="./img/product-1-sm.jpg" alt="">
+                                </a>
+                            </div>
+                            <h5>
+                                <a href="">
+                                    Нерка холодного копчения калтыки
+                                </a>
+                            </h5>
+                            <h6>цена за 1 кг.</h6>
+                            <div class="catalog-card__price">
+                                <p>459 ₽</p>
+                                <div class="add-to-cart">
+                                    <div class="counter-container" id="counter-container-8">
+                                        <button class="counter-button minus" onclick="decrement(8)">
+                                            <svg width="24" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 1H24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                        <span class="counterValue" id="counterValue-8" onclick="increment(8)">0</span>
+                                        <p class="counterValue" id="counterValue-8" onclick="increment(8)">В корзину</p>
+                                        <button class="counter-button plus" onclick="increment(8)">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 12H24" stroke="#FEFEFE" stroke-width="2" />
+                                                <path d="M12 0L12 24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="catalog-card col-sm-2">
+                            <div class="catalog-card__img">
+                                <a href="">
+                                    <img src="./img/product-1-sm.jpg" alt="">
+                                </a>
+                            </div>
+                            <h5>
+                                <a href="">
+                                    Нерка холодного копчения калтыки
+                                </a>
+                            </h5>
+                            <h6>цена за 1 кг.</h6>
+                            <div class="catalog-card__price">
+                                <p>459 ₽</p>
+                                <div class="add-to-cart">
+                                    <div class="counter-container" id="counter-container-9">
+                                        <button class="counter-button minus" onclick="decrement(9)">
+                                            <svg width="24" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 1H24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                        <span class="counterValue" id="counterValue-9" onclick="increment(9)">0</span>
+                                        <p class="counterValue" id="counterValue-9" onclick="increment(9)">В корзину</p>
+                                        <button class="counter-button plus" onclick="increment(9)">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 12H24" stroke="#FEFEFE" stroke-width="2" />
+                                                <path d="M12 0L12 24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="catalog-card col-sm-2">
+                            <div class="catalog-card__img">
+                                <a href="">
+                                    <img src="./img/product-1-sm.jpg" alt="">
+                                </a>
+                            </div>
+                            <h5>
+                                <a href="">
+                                    Нерка холодного копчения калтыки
+                                </a>
+                            </h5>
+                            <h6>цена за 1 кг.</h6>
+                            <div class="catalog-card__price">
+                                <p>459 ₽</p>
+                                <div class="add-to-cart">
+                                    <div class="counter-container" id="counter-container-10">
+                                        <button class="counter-button minus" onclick="decrement(10)">
+                                            <svg width="24" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 1H24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                        <span class="counterValue" id="counterValue-10" onclick="increment(10)">0</span>
+                                        <p class="counterValue" id="counterValue-10" onclick="increment(10)">В корзину</p>
+                                        <button class="counter-button plus" onclick="increment(10)">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 12H24" stroke="#FEFEFE" stroke-width="2" />
+                                                <path d="M12 0L12 24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="catalog-card col-sm-2">
+                            <div class="catalog-card__img">
+                                <a href="">
+                                    <img src="./img/product-1-sm.jpg" alt="">
+                                </a>
+                            </div>
+                            <h5>
+                                <a href="">
+                                    Нерка холодного копчения калтыки
+                                </a>
+                            </h5>
+                            <h6>цена за 1 кг.</h6>
+                            <div class="catalog-card__price">
+                                <p>459 ₽</p>
+                                <div class="add-to-cart">
+                                    <div class="counter-container" id="counter-container-18">
+                                        <button class="counter-button minus" onclick="decrement(18)">
+                                            <svg width="24" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 1H24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                        <span class="counterValue" id="counterValue-18" onclick="increment(18)">0</span>
+                                        <p class="counterValue" id="counterValue-18" onclick="increment(18)">В корзину</p>
+                                        <button class="counter-button plus" onclick="increment(10)">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 12H24" stroke="#FEFEFE" stroke-width="2" />
+                                                <path d="M12 0L12 24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="catalog-card col-sm-2">
+                            <div class="catalog-card__img">
+                                <a href="">
+                                    <img src="./img/product-1-sm.jpg" alt="">
+                                </a>
+                            </div>
+                            <h5>
+                                <a href="">
+                                    Нерка холодного копчения калтыки
+                                </a>
+                            </h5>
+                            <h6>цена за 1 кг.</h6>
+                            <div class="catalog-card__price">
+                                <p>459 ₽</p>
+                                <div class="add-to-cart">
+                                    <div class="counter-container" id="counter-container-11">
+                                        <button class="counter-button minus" onclick="decrement(11)">
+                                            <svg width="24" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 1H24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                        <span class="counterValue" id="counterValue-11" onclick="increment(11)">0</span>
+                                        <p class="counterValue" id="counterValue-11" onclick="increment(11)">В корзину</p>
+                                        <button class="counter-button plus" onclick="increment(11)">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 12H24" stroke="#FEFEFE" stroke-width="2" />
+                                                <path d="M12 0L12 24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="catalog-card col-sm-2">
+                            <div class="catalog-card__img">
+                                <a href="">
+                                    <img src="./img/product-1-sm.jpg" alt="">
+                                </a>
+                            </div>
+                            <h5>
+                                <a href="">
+                                    Нерка холодного копчения калтыки
+                                </a>
+                            </h5>
+                            <h6>цена за 1 кг.</h6>
+                            <div class="catalog-card__price">
+                                <p>459 ₽</p>
+                                <div class="add-to-cart">
+                                    <div class="counter-container" id="counter-container-12">
+                                        <button class="counter-button minus" onclick="decrement(12)">
+                                            <svg width="24" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 1H24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                        <span class="counterValue" id="counterValue-12" onclick="increment(12)">0</span>
+                                        <p class="counterValue" id="counterValue-12" onclick="increment(12)">В корзину</p>
+                                        <button class="counter-button plus" onclick="increment(12)">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 12H24" stroke="#FEFEFE" stroke-width="2" />
+                                                <path d="M12 0L12 24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="catalog-card col-sm-2">
+                            <div class="catalog-card__img">
+                                <a href="">
+                                    <img src="./img/product-1-sm.jpg" alt="">
+                                </a>
+                            </div>
+                            <h5>
+                                <a href="">
+                                    Нерка холодного копчения калтыки
+                                </a>
+                            </h5>
+                            <h6>цена за 1 кг.</h6>
+                            <div class="catalog-card__price">
+                                <p>459 ₽</p>
+                                <div class="add-to-cart">
+                                    <div class="counter-container" id="counter-container-13">
+                                        <button class="counter-button minus" onclick="decrement(13)">
+                                            <svg width="24" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 1H24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                        <span class="counterValue" id="counterValue-13" onclick="increment(13)">0</span>
+                                        <p class="counterValue" id="counterValue-13" onclick="increment(13)">В корзину</p>
+                                        <button class="counter-button plus" onclick="increment(13)">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 12H24" stroke="#FEFEFE" stroke-width="2" />
+                                                <path d="M12 0L12 24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="catalog-card col-sm-2">
+                            <div class="catalog-card__img">
+                                <a href="">
+                                    <img src="./img/product-1-sm.jpg" alt="">
+                                </a>
+                            </div>
+                            <h5>
+                                <a href="">
+                                    Нерка холодного копчения калтыки
+                                </a>
+                            </h5>
+                            <h6>цена за 1 кг.</h6>
+                            <div class="catalog-card__price">
+                                <p>459 ₽</p>
+                                <div class="add-to-cart">
+                                    <div class="counter-container" id="counter-container-14">
+                                        <button class="counter-button minus" onclick="decrement(14)">
+                                            <svg width="24" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 1H24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                        <span class="counterValue" id="counterValue-14" onclick="increment(14)">0</span>
+                                        <p class="counterValue" id="counterValue-14" onclick="increment(14)">В корзину</p>
+                                        <button class="counter-button plus" onclick="increment(14)">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 12H24" stroke="#FEFEFE" stroke-width="2" />
+                                                <path d="M12 0L12 24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="catalog-card col-sm-2">
+                            <div class="catalog-card__img">
+                                <a href="">
+                                    <img src="./img/product-1-sm.jpg" alt="">
+                                </a>
+                            </div>
+                            <h5>
+                                <a href="">
+                                    Нерка холодного копчения калтыки
+                                </a>
+                            </h5>
+                            <h6>цена за 1 кг.</h6>
+                            <div class="catalog-card__price">
+                                <p>459 ₽</p>
+                                <div class="add-to-cart">
+                                    <div class="counter-container" id="counter-container-15">
+                                        <button class="counter-button minus" onclick="decrement(15)">
+                                            <svg width="24" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 1H24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                        <span class="counterValue" id="counterValue-15" onclick="increment(15)">0</span>
+                                        <p class="counterValue" id="counterValue-15" onclick="increment(15)">В корзину</p>
+                                        <button class="counter-button plus" onclick="increment(15)">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 12H24" stroke="#FEFEFE" stroke-width="2" />
+                                                <path d="M12 0L12 24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="catalog-card col-sm-2">
+                            <div class="catalog-card__img">
+                                <a href="">
+                                    <img src="./img/product-1-sm.jpg" alt="">
+                                </a>
+                            </div>
+                            <h5>
+                                <a href="">
+                                    Нерка холодного копчения калтыки
+                                </a>
+                            </h5>
+                            <h6>цена за 1 кг.</h6>
+                            <div class="catalog-card__price">
+                                <p>459 ₽</p>
+                                <div class="add-to-cart">
+                                    <div class="counter-container" id="counter-container-16">
+                                        <button class="counter-button minus" onclick="decrement(16)">
+                                            <svg width="24" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 1H24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                        <span class="counterValue" id="counterValue-16" onclick="increment(16)">0</span>
+                                        <p class="counterValue" id="counterValue-16" onclick="increment(16)">В корзину</p>
+                                        <button class="counter-button plus" onclick="increment(16)">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 12H24" stroke="#FEFEFE" stroke-width="2" />
+                                                <path d="M12 0L12 24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="catalog-card col-sm-2">
+                            <div class="catalog-card__img">
+                                <a href="">
+                                    <img src="./img/product-1-sm.jpg" alt="">
+                                </a>
+                            </div>
+                            <h5>
+                                <a href="">
+                                    Нерка холодного копчения калтыки
+                                </a>
+                            </h5>
+                            <h6>цена за 1 кг.</h6>
+                            <div class="catalog-card__price">
+                                <p>459 ₽</p>
+                                <div class="add-to-cart">
+                                    <div class="counter-container" id="counter-container-17">
+                                        <button class="counter-button minus" onclick="decrement(17)">
+                                            <svg width="24" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 1H24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                        <span class="counterValue" id="counterValue-17" onclick="increment(17)">0</span>
+                                        <p class="counterValue" id="counterValue-17" onclick="increment(17)">В корзину</p>
+                                        <button class="counter-button plus" onclick="increment(17)">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 12H24" stroke="#FEFEFE" stroke-width="2" />
+                                                <path d="M12 0L12 24" stroke="#FEFEFE" stroke-width="2" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+    
+                    </div>
+
+                    
+
+                </div>
+
+               <div class="catalog-pagination">
+
+                <div class="section-link">
+                    <a href="">
+                        Загрузить еще
+                        
+                    </a>
+                </div>
+
+                <div class="pag">
+                    <a href="">
+                        <svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.9858 4.9998L0.999947 4.9998M0.999947 4.9998L5.47579 9.47583M0.999947 4.9998L5.47579 0.52396" stroke="#202122" />
+                          </svg>
+                    </a>
+                
+                    <a href="">
+                        1
+                    </a>
+                    <a href="">
+                        2
+                    </a>
+                    <a href="" class="active">
+                        3
+                    </a>
+                    <a href="">
+                        4
+                    </a>
+                    <a href="">
+                        ...
+                    </a>
+                    <a href="">
+                        80
+                    </a>
+
+                    <a href="">
+                        <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.985839 4.9998L12.9717 4.9998M12.9717 4.9998L8.49589 9.47583M12.9717 4.9998L8.49589 0.52396" stroke="#202122" />
+                          </svg>
+                    </a>
+                </div>
+
+               </div>
+
+                    
+               </div>
+
+            </div>
+
+        </section>
+
+        
+
+        
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="footer-divider">
+
+            <div class="container footer__container">
+                <div class="footer__wrapper">
+                    <div class="footer__top">
+
+                        <div class="footer__block">
+                            <nav class="footer__nav">
+                                <ul>
+                                    <li>
+                                        <a href="">
+                                            <b>О компании</b>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <b>Блог</b>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <b>Новости</b>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <b>Кулинарная книга</b>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <div class="footer__block">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="">
+                                            <b>Покупателям</b>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Гарантии
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Доставка
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Условия возврата
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="footer__block">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="">
+                                            <b>Оптовикам</b>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Доставка и оплата
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Условия возврата
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="footer__block single-link">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="">
+                                            <b>
+                                                Поставщикам
+                                            </b>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="footer__block">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="">
+                                            <b>Контакты</b>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Точки продаж
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Склад
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Контакты
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <div class="footer__block">
+                            <b>Подписывайтесь</b>
+                            <div class="socials">
+                                <a href="">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="20" cy="20" r="20" fill="#3484EF"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M31.2931 13.8564C31.4711 13.2924 31.2931 12.8824 30.5056 12.8824H27.8871C27.2266 12.8824 26.9216 13.2414 26.7436 13.6254C26.7436 13.6254 25.3966 16.9054 23.5156 19.0319C22.9056 19.6469 22.6261 19.8519 22.2956 19.8519C22.1176 19.8519 21.8885 19.6469 21.8885 19.0834V13.8299C21.8885 13.1639 21.6855 12.8564 21.126 12.8564H17.008C16.601 12.8564 16.347 13.1639 16.347 13.4714C16.347 14.1119 17.2875 14.2659 17.389 16.0594V19.9564C17.389 20.8019 17.239 20.9564 16.906 20.9564C16.0165 20.9564 13.856 17.6509 12.56 13.8844C12.308 13.1384 12.052 12.8564 11.391 12.8564H8.74753C7.98503 12.8564 7.85803 13.2149 7.85803 13.5994C7.85803 14.2914 8.74753 17.7759 12.001 22.3879C14.1615 25.5379 17.237 27.2309 20.0075 27.2309C21.6855 27.2309 21.8885 26.8464 21.8885 26.2059V23.8229C21.8885 23.0544 22.041 22.9264 22.5751 22.9264C22.9561 22.9264 23.6426 23.1309 25.1931 24.6429C26.9721 26.4364 27.2771 27.2564 28.2686 27.2564H30.8866C31.6491 27.2564 32.0051 26.8719 31.8016 26.1289C31.5731 25.3859 30.7086 24.3099 29.5901 23.0289C28.9801 22.3119 28.0651 21.5174 27.7856 21.1329C27.4046 20.6204 27.5061 20.4154 27.7856 19.9544C27.7601 19.9544 30.9631 15.3934 31.2931 13.8544" fill="#FDFDFF"/>
+                                        </svg>
+                                        
+                                </a>
+                                <a href="">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="20" cy="20" r="20" fill="#F08143" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M25.7944 14.3379C25.7944 17.6743 23.0744 20.3943 19.7377 20.3943C16.3649 20.3943 13.645 17.6743 13.645 14.3379C13.645 11.0012 16.3649 8.28125 19.7377 8.28125C23.0744 8.28125 25.7944 11.0012 25.7944 14.3379ZM22.2402 14.3379C22.2402 12.9597 21.1159 11.8354 19.7377 11.8354C18.3234 11.8354 17.1992 12.9597 17.2353 14.3379C17.2353 15.7161 18.3596 16.8403 19.7377 16.8403C21.1159 16.8403 22.2402 15.7161 22.2402 14.3379Z" fill="white" />
+                                        <path d="M25.6852 23.9124C24.5974 24.6013 23.4006 25.073 22.1677 25.363L25.613 28.6997C26.3019 29.3887 26.3019 30.5129 25.613 31.2021C24.9238 31.8911 23.7995 31.8911 23.1105 31.2021L19.7739 27.8655L16.4374 31.2021C16.0747 31.5283 15.6396 31.7097 15.1682 31.7097C14.6965 31.7097 14.2614 31.5647 13.8986 31.2021C13.2097 30.5129 13.2097 29.3887 13.8986 28.6997L17.2714 25.3269C16.0385 25.0366 14.8417 24.5652 13.7536 23.876C12.9196 23.3684 12.6657 22.2803 13.1372 21.4463C13.6811 20.6121 14.7692 20.3945 15.6032 20.9021C18.0695 22.4617 21.2971 22.4617 23.7634 20.9021C24.5974 20.3582 25.7219 20.6121 26.2294 21.4463C26.7734 22.2803 26.5195 23.4045 25.6852 23.9124Z" fill="white" />
+                                    </svg>
+                                </a>
+                                <a href="">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40Z" fill="#37AEE2" />
+                                        <path opacity="0.6" d="M20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40Z" fill="#37AEE2" />
+                                        <path d="M29.5205 13.0199C29.4645 13.8279 29.0005 16.6559 28.5405 19.7159L27.0965 28.776C27.0965 28.776 26.9805 30.104 26.0004 30.336C25.0204 30.568 23.4044 29.528 23.1164 29.296C22.8844 29.124 18.7884 26.524 17.2884 25.256C16.8844 24.908 16.4244 24.216 17.3444 23.408C19.4204 21.5039 21.9044 19.1359 23.4044 17.6359C24.0964 16.9439 24.7884 15.3279 21.9044 17.2879L13.7683 22.772C13.7683 22.772 12.8443 23.348 11.1123 22.828C9.38028 22.308 7.36027 21.616 7.36027 21.616C7.36027 21.616 5.97625 20.7519 8.34027 19.8279L21.7884 14.2879C23.1164 13.7119 27.6165 11.8639 27.6165 11.8639C27.6165 11.8639 29.6925 11.0559 29.5205 13.0199Z" fill="#FDFDFF" />
+                                    </svg>
+                                </a>
+                                    <a href="">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40Z" fill="#5FD440" />
+                                            <path opacity="0.6" d="M20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40Z" fill="#5FD440" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.9962 8.25195C13.5042 8.25195 8.24011 13.516 8.24011 20.0081C8.24011 22.2281 8.85612 24.3041 9.92813 26.0761L7.80811 32.3842L14.3162 30.3002C16.0002 31.2322 17.9362 31.7642 19.9962 31.7642C26.4883 31.7642 31.7523 26.5001 31.7523 20.0121C31.7523 13.512 26.4883 8.25195 19.9962 8.25195ZM19.9962 29.8882C17.9882 29.8882 16.1202 29.2882 14.5602 28.2521L10.7641 29.4682L12.0001 25.8001C10.8161 24.1721 10.1201 22.1681 10.1201 20.0041C10.1201 14.556 14.5522 10.124 20.0042 10.124C25.4523 10.124 29.8883 14.556 29.8883 20.0041C29.8803 25.4521 25.4443 29.8882 19.9962 29.8882ZM25.9323 22.7121C26.0043 22.8321 26.0043 23.4081 25.7643 24.0801C25.5243 24.7521 24.3483 25.4001 23.8203 25.4481C23.2923 25.4961 23.2923 25.8801 20.3642 24.7281C17.4362 23.5761 15.5882 20.5721 15.4442 20.3801C15.3002 20.1881 14.2682 18.8201 14.2682 17.4C14.2682 15.984 15.0122 15.284 15.2762 14.996C15.5402 14.708 15.8522 14.636 16.0442 14.636C16.2362 14.636 16.4282 14.66 16.5962 14.66C16.7642 14.66 17.0042 14.564 17.2442 15.14C17.4842 15.716 18.0602 17.136 18.1322 17.28C18.2042 17.424 18.2522 17.592 18.1562 17.784C18.0602 17.976 18.0122 18.096 17.8682 18.264C17.7242 18.4321 17.5642 18.6401 17.4362 18.7681C17.2922 18.9121 17.1402 19.0681 17.3082 19.3561C17.4762 19.6441 18.0562 20.5881 18.9122 21.3521C20.0122 22.3321 20.9402 22.6361 21.2282 22.7801C21.5162 22.9241 21.6842 22.9001 21.8522 22.7081C22.0202 22.5161 22.5722 21.8681 22.7642 21.5801C22.9563 21.2921 23.1483 21.3401 23.4123 21.4361C23.6763 21.5321 25.0923 22.2281 25.3803 22.3721C25.6683 22.5201 25.8603 22.5921 25.9323 22.7121Z" fill="#FDFDFF" />
+                                        </svg>
+                                    </a>  
+                                
+                            </div>
+                        </div>
+
+
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-divider">
+            <div class="container footer__container">
+                <div class="footer__wrapper">
+                    <div class="footer__bottom">
+                        <div class="footer__info">
+                            <p>© 2024 ИП ЦУЦКОВА.О.В. Все права защищены.</p>
+                            <p>
+                                Продукция, представленная на сайте, может отличаться по форме, дизайну упаковки, весу и составу от представленной в магазинах розничной сети торговой марки «Русалочка» ИП Цуцкова О.В. Фотографии продукции могут содержать оформление и декоративные элементы, не предназначенные для продажи. Производитель оставляет за собой право вносить изменения в форму, дизайн упаковки, вес и состав продукции без уведомления потребителей.
+                            </p>
+                        </div>
+                        <div class="footer__by">
+                            <p>
+                                Создание, разработка и продвижение сайта.<br>
+                                Маркетинговое агентство ООО «МЕДИАТИП». 
+                            </p>
+                            <a href="https://mediatip.ru/" target="_blank">
+                                <svg width="159" height="35" viewBox="0 0 159 35" fill="none" xmlns="http://www.w3.org/2000/svg" class="mediatip-desktop">
+                                    <path d="M48.86 20.7698V13.5398C48.86 10.7698 46.62 8.52979 43.85 8.52979H34.59C34.27 8.52979 34.01 8.78979 34.01 9.10979V25.1998C34.01 25.5198 34.27 25.7798 34.59 25.7798H43.85C46.62 25.7798 48.86 23.5398 48.86 20.7698ZM37.41 22.0798V12.2298C37.41 12.0698 37.54 11.9398 37.7 11.9398H43.34C44.52 11.9398 45.47 12.8898 45.47 14.0698V20.2398C45.47 21.4198 44.52 22.3698 43.34 22.3698H37.7C37.54 22.3698 37.41 22.2398 37.41 22.0798Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M151.87 15.9998V13.4398C151.87 10.7298 149.67 8.52979 146.96 8.52979H139.71C139.39 8.52979 139.13 8.78979 139.13 9.10979V25.1998C139.13 25.5198 139.39 25.7798 139.71 25.7798H141.81C142.13 25.7798 142.39 25.5198 142.39 25.1998V21.0098C142.39 20.9598 142.43 20.9098 142.49 20.9098H146.96C149.67 20.9098 151.87 18.7098 151.87 15.9998ZM142.52 17.2298V12.2098C142.52 12.0498 142.65 11.9198 142.81 11.9198H146.63C147.65 11.9198 148.48 12.7498 148.48 13.7698V15.6698C148.48 16.6898 147.65 17.5198 146.63 17.5198H142.81C142.65 17.5198 142.52 17.3898 142.52 17.2298Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M3.36005 28.8601V32.2501H2.70005V30.0501L1.75005 31.6201H1.67005L0.720049 30.0501V32.2401H0.0500488V28.8501H0.740049L1.71005 30.4501L2.68005 28.8501H3.37005L3.36005 28.8601Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M3.98999 32.2499V28.8599H4.65999V29.9699H5.25999C5.58999 29.9699 5.85999 30.0799 6.07999 30.2999C6.29999 30.5199 6.40999 30.7899 6.40999 31.1099C6.40999 31.4299 6.29999 31.6999 6.07999 31.9199C5.85999 32.1399 5.57999 32.2499 5.25999 32.2499H3.99999H3.98999ZM4.65999 31.6299H5.25999C5.39999 31.6299 5.51999 31.5799 5.60999 31.4899C5.69999 31.3899 5.74999 31.2699 5.74999 31.1199C5.74999 30.9699 5.69999 30.8499 5.60999 30.7499C5.51999 30.6499 5.39999 30.5999 5.25999 30.5999H4.65999V31.6299ZM6.71999 32.2499V28.8599H7.37999V32.2499H6.71999Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M10.8301 32.32C10.3201 32.32 9.90007 32.15 9.57007 31.81C9.24007 31.47 9.07007 31.05 9.07007 30.56C9.07007 30.07 9.24007 29.64 9.57007 29.3C9.90007 28.96 10.3201 28.79 10.8301 28.79C11.1401 28.79 11.4201 28.86 11.6801 29.01C11.9401 29.15 12.1401 29.35 12.2901 29.59L11.7101 29.92C11.6301 29.77 11.5101 29.65 11.3501 29.56C11.1901 29.47 11.0201 29.43 10.8301 29.43C10.5001 29.43 10.2401 29.53 10.0301 29.74C9.82007 29.95 9.73007 30.21 9.73007 30.54C9.73007 30.87 9.83007 31.13 10.0301 31.34C10.2301 31.55 10.5001 31.65 10.8301 31.65C11.0201 31.65 11.2001 31.61 11.3501 31.52C11.5101 31.43 11.6201 31.32 11.7101 31.17L12.2901 31.5C12.1401 31.75 11.9401 31.94 11.6901 32.08C11.4401 32.22 11.1501 32.3 10.8401 32.3L10.8301 32.32Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M15.51 31.8098C15.17 32.1498 14.75 32.3198 14.26 32.3198C13.77 32.3198 13.35 32.1498 13.01 31.8098C12.67 31.4698 12.5 31.0498 12.5 30.5598C12.5 30.0698 12.67 29.6498 13.01 29.3098C13.35 28.9698 13.77 28.7998 14.26 28.7998C14.75 28.7998 15.17 28.9698 15.51 29.3098C15.85 29.6498 16.02 30.0698 16.02 30.5598C16.02 31.0498 15.85 31.4698 15.51 31.8098ZM13.48 31.3598C13.69 31.5698 13.95 31.6698 14.26 31.6698C14.57 31.6698 14.83 31.5698 15.04 31.3598C15.25 31.1498 15.35 30.8898 15.35 30.5598C15.35 30.2298 15.25 29.9698 15.04 29.7598C14.83 29.5498 14.57 29.4498 14.26 29.4498C13.95 29.4498 13.69 29.5498 13.48 29.7598C13.27 29.9698 13.17 30.2398 13.17 30.5598C13.17 30.8798 13.27 31.1498 13.48 31.3598Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M18.1201 30.4998C18.4401 30.6698 18.6001 30.9398 18.6001 31.2998C18.6001 31.5998 18.4901 31.8498 18.2601 32.0398C18.0301 32.2298 17.7401 32.3198 17.3701 32.3198C16.7401 32.3198 16.3201 32.0498 16.1101 31.5198L16.6901 31.1998C16.7901 31.5298 17.0201 31.6898 17.3801 31.6898C17.5601 31.6898 17.7001 31.6498 17.8001 31.5698C17.9001 31.4898 17.9501 31.3898 17.9501 31.2598C17.9501 31.1298 17.9001 31.0198 17.8101 30.9498C17.7101 30.8698 17.5801 30.8298 17.4001 30.8298H16.9801V30.2398H17.3001C17.4701 30.2398 17.6001 30.1998 17.6901 30.1298C17.7801 30.0598 17.8301 29.9598 17.8301 29.8298C17.8301 29.6998 17.7901 29.5998 17.7101 29.5298C17.6301 29.4598 17.5101 29.4198 17.3501 29.4198C17.0601 29.4198 16.8601 29.5598 16.7401 29.8498L16.1701 29.5198C16.4001 29.0398 16.7901 28.7998 17.3501 28.7998C17.6901 28.7998 17.9601 28.8898 18.1701 29.0698C18.3801 29.2498 18.4901 29.4898 18.4901 29.7898C18.4901 30.0898 18.3701 30.3298 18.1301 30.5098L18.1201 30.4998Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M21.63 31.6099H21.99V32.8999H21.32V32.2499H19.45V32.8999H18.78V31.6099H19.11C19.3 31.3499 19.39 30.9699 19.39 30.4599V28.8599H21.63V31.6099ZM19.83 31.6099H20.96V29.4899H20.06V30.4799C20.06 30.9699 19.98 31.3499 19.83 31.6199V31.6099Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M24.63 32.2499L24.43 31.6399H23.08L22.88 32.2499H22.16L23.35 28.8599H24.18L25.37 32.2499H24.64H24.63ZM23.29 31.0199H24.22L23.76 29.6399L23.3 31.0199H23.29Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M26.3501 31.6099H27.7801V32.2499H25.6901V28.8599H27.7601V29.4999H26.3601V30.2199H27.6401V30.8499H26.3601V31.6099H26.3501Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M31.56 28.8601V32.2501H30.9V30.0501L29.95 31.6201H29.87L28.92 30.0501V32.2401H28.25V28.8501H28.94L29.91 30.4501L30.88 28.8501H31.57L31.56 28.8601Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M33.4 31.0897V30.4897H35.89V31.0897H33.4Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M39.78 30.4899C40.08 30.6599 40.23 30.9199 40.23 31.2599C40.23 31.5499 40.13 31.7799 39.93 31.9699C39.73 32.1599 39.48 32.2499 39.18 32.2499H37.74V28.8599H39.08C39.37 28.8599 39.61 28.9499 39.81 29.1299C40.01 29.3099 40.11 29.5399 40.11 29.8099C40.11 30.0799 40 30.3199 39.79 30.4899H39.78ZM39.07 29.4799H38.4V30.2299H39.07C39.17 30.2299 39.26 30.1899 39.33 30.1199C39.4 30.0499 39.43 29.9599 39.43 29.8499C39.43 29.7399 39.4 29.6499 39.33 29.5799C39.26 29.5099 39.18 29.4699 39.07 29.4699V29.4799ZM39.17 31.6199C39.28 31.6199 39.38 31.5799 39.45 31.5099C39.52 31.4299 39.56 31.3399 39.56 31.2199C39.56 31.0999 39.52 31.0099 39.45 30.9399C39.38 30.8599 39.28 30.8299 39.17 30.8299H38.4V31.6299H39.17V31.6199Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M42.27 32.32C41.76 32.32 41.34 32.15 41.01 31.81C40.68 31.47 40.51 31.05 40.51 30.56C40.51 30.07 40.68 29.64 41.01 29.3C41.34 28.96 41.76 28.79 42.27 28.79C42.58 28.79 42.86 28.86 43.12 29.01C43.38 29.15 43.58 29.35 43.73 29.59L43.15 29.92C43.07 29.77 42.95 29.65 42.79 29.56C42.63 29.47 42.46 29.43 42.27 29.43C41.94 29.43 41.68 29.53 41.47 29.74C41.26 29.95 41.17 30.21 41.17 30.54C41.17 30.87 41.27 31.13 41.47 31.34C41.67 31.55 41.94 31.65 42.27 31.65C42.46 31.65 42.64 31.61 42.79 31.52C42.95 31.43 43.06 31.32 43.15 31.17L43.73 31.5C43.58 31.75 43.38 31.94 43.13 32.08C42.88 32.22 42.59 32.3 42.28 32.3L42.27 32.32Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M44.8 31.6099H46.23V32.2499H44.14V28.8599H46.21V29.4999H44.81V30.2199H46.09V30.8499H44.81V31.6099H44.8Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M49.7001 30.4998C50.0201 30.6698 50.1801 30.9398 50.1801 31.2998C50.1801 31.5998 50.0701 31.8498 49.8401 32.0398C49.6101 32.2298 49.3201 32.3198 48.9501 32.3198C48.3201 32.3198 47.9001 32.0498 47.6901 31.5198L48.2701 31.1998C48.3701 31.5298 48.6001 31.6898 48.9601 31.6898C49.1401 31.6898 49.2801 31.6498 49.3801 31.5698C49.4801 31.4898 49.5301 31.3898 49.5301 31.2598C49.5301 31.1298 49.4801 31.0198 49.3901 30.9498C49.2901 30.8698 49.1601 30.8298 48.9801 30.8298H48.5601V30.2398H48.8801C49.0501 30.2398 49.1801 30.1998 49.2701 30.1298C49.3601 30.0598 49.4101 29.9598 49.4101 29.8298C49.4101 29.6998 49.3701 29.5998 49.2901 29.5298C49.2101 29.4598 49.0901 29.4198 48.9301 29.4198C48.6401 29.4198 48.4401 29.5598 48.3201 29.8498L47.7501 29.5198C47.9801 29.0398 48.3701 28.7998 48.9301 28.7998C49.2701 28.7998 49.5401 28.8898 49.7501 29.0698C49.9601 29.2498 50.0701 29.4898 50.0701 29.7898C50.0701 30.0898 49.9501 30.3298 49.7101 30.5098L49.7001 30.4998Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M52.8001 32.2499L52.6001 31.6399H51.2501L51.0501 32.2499H50.3301L51.5201 28.8599H52.3501L53.5401 32.2499H52.8101H52.8001ZM51.4601 31.0199H52.3901L51.9301 29.6399L51.4701 31.0199H51.4601Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M55.9001 30.4899C56.2001 30.6599 56.3501 30.9199 56.3501 31.2599C56.3501 31.5499 56.2501 31.7799 56.0501 31.9699C55.8501 32.1599 55.6001 32.2499 55.3001 32.2499H53.8601V28.8599H55.2001C55.4901 28.8599 55.7301 28.9499 55.9301 29.1299C56.1301 29.3099 56.2301 29.5399 56.2301 29.8099C56.2301 30.0799 56.1201 30.3199 55.9101 30.4899H55.9001ZM55.1901 29.4799H54.5201V30.2299H55.1901C55.2901 30.2299 55.3801 30.1899 55.4501 30.1199C55.5201 30.0499 55.5501 29.9599 55.5501 29.8499C55.5501 29.7399 55.5201 29.6499 55.4501 29.5799C55.3801 29.5099 55.3001 29.4699 55.1901 29.4699V29.4799ZM55.2901 31.6199C55.4001 31.6199 55.5001 31.5799 55.5701 31.5099C55.6401 31.4299 55.6801 31.3399 55.6801 31.2199C55.6801 31.0999 55.6401 31.0099 55.5701 30.9399C55.5001 30.8599 55.4001 30.8299 55.2901 30.8299H54.5201V31.6299H55.2901V31.6199Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M58.74 32.2499V30.1799L57.29 32.2499H56.78V28.8599H57.45V30.9299L58.9 28.8599H59.41V32.2499H58.74Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M62.64 31.6099H63V32.8999H62.33V32.2499H60.46V32.8999H59.79V31.6099H60.12C60.31 31.3499 60.4 30.9699 60.4 30.4599V28.8599H62.64V31.6099ZM60.84 31.6099H61.97V29.4899H61.07V30.4799C61.07 30.9699 60.99 31.3499 60.84 31.6199V31.6099Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M65.1801 28.8599H65.8501L64.8301 31.3099C64.5601 31.9699 64.1101 32.2799 63.4901 32.2399V31.6199C63.6701 31.6399 63.8201 31.6199 63.9301 31.5499C64.0401 31.4799 64.1301 31.3799 64.2101 31.2299L63.1001 28.8599H63.7701L64.5101 30.4999L65.1801 28.8599Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M69.09 28.79C69.58 28.79 70 28.96 70.34 29.3C70.68 29.64 70.85 30.06 70.85 30.55C70.85 31.04 70.68 31.46 70.34 31.8C70 32.14 69.58 32.31 69.09 32.31C68.65 32.31 68.27 32.17 67.95 31.89C67.63 31.61 67.44 31.25 67.37 30.82H66.88V32.24H66.21V28.85H66.88V30.18H67.38C67.46 29.77 67.66 29.44 67.98 29.18C68.29 28.92 68.66 28.79 69.09 28.79ZM68.31 31.35C68.52 31.56 68.78 31.66 69.09 31.66C69.4 31.66 69.66 31.56 69.87 31.35C70.08 31.14 70.18 30.88 70.18 30.55C70.18 30.22 70.08 29.96 69.87 29.75C69.66 29.54 69.4 29.44 69.09 29.44C68.78 29.44 68.52 29.54 68.31 29.75C68.1 29.96 68 30.22 68 30.55C68 30.88 68.1 31.14 68.31 31.35Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M73.3701 28.8599V29.4999H72.4601V32.2499H71.7901V29.4999H70.8801V28.8599H73.3701Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M26.49 27.96H25.91V28.54H26.49V27.96Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M27.5501 27.96H26.9701V28.54H27.5501V27.96Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M95.08 10.6799C95.11 10.6199 95.37 10.1799 95.41 9.98992C96 7.03992 95.37 5.08992 94.25 3.60992C93.13 2.13992 91.94 1.41992 90.05 0.669922C82.5 2.79992 76.96 9.72992 76.96 17.9599C76.96 23.1599 79.17 27.8299 82.69 31.1099C82.86 27.3599 86.18 23.2999 89.84 24.6399C92.27 25.5299 93.52 24.8599 93.46 22.3499C93.46 22.1799 93.55 21.9999 93.64 21.8699C93.79 21.6699 94.19 21.6899 94.4 21.3699C94.83 20.7199 94.3 20.1599 94.3 20.1599C94.29 20.1599 94.49 20.0599 94.81 19.6799C94.93 19.5299 94.98 19.1499 94.93 18.9599C94.83 18.5099 94.32 17.9499 94.59 17.3999C94.66 17.2599 94.97 17.1799 95.26 17.0599C96.61 16.5299 95.99 15.4199 95.41 14.5199C93.9 12.1799 94.48 11.9099 95.07 10.6699L95.08 10.6799Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M94.9301 0C94.2201 0 93.5301 0.04 92.8501 0.12C94.2101 0.16 95.5401 0.51 96.7001 1.16C98.1501 1.9 99.3001 3.21 100.02 4.54C100.24 4.97 100.31 5.68 100.65 5.96C100.72 6.02 104.91 8.27 105.78 8.57C105.88 8.61 106.05 8.69 106.23 8.78C106.49 8.91 106.71 9.03 106.85 9.21C106.95 9.34 107.04 9.44 107.04 9.71C107.01 9.99 106.87 10.25 106.75 10.46C106.47 10.96 106.3 11.13 106.03 11.62C105.94 11.8 105.84 12.09 105.93 12.34C106.11 12.92 106.58 13.2 107.09 13.43C107.4 13.59 107.63 13.69 107.74 14.1C107.78 14.51 107.55 14.76 107.3 15C107.21 15.09 106.79 15.48 107.2 15.5C107.36 15.54 107.56 15.52 107.72 15.55C107.9 15.59 108.13 15.57 108.27 15.78C108.33 15.87 108.44 16.06 108.43 16.26C108.44 16.51 108.21 16.77 108.08 17.11C108.03 17.23 108.27 17.79 108.4 17.91C109.28 18.74 110.01 19.56 109.22 20.91C109.18 20.98 108.78 21.4 108.63 21.51C107.85 22.09 106.8 22.46 105.87 22.74C102.9 23.64 100.74 26.22 100.71 29.16C100.71 29.16 100.81 31.87 102.42 34.32C108.61 31.48 112.92 25.23 112.92 17.98C112.92 8.06 104.88 0.01 94.9501 0.01L94.9301 0Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M31.08 11.3598V9.10979C31.08 8.78979 30.82 8.52979 30.5 8.52979H21.12C20.8 8.52979 20.54 8.78979 20.54 9.10979V25.1998C20.54 25.5198 20.8 25.7798 21.12 25.7798H30.5C30.82 25.7798 31.08 25.5198 31.08 25.1998V22.9498C31.08 22.6298 30.82 22.3698 30.5 22.3698H24.24C24.08 22.3698 23.95 22.2398 23.95 22.0798V19.1498C23.95 18.9898 24.08 18.8598 24.24 18.8598H29.93C30.25 18.8598 30.51 18.5998 30.51 18.2798V16.0298C30.51 15.7098 30.25 15.4498 29.93 15.4498H24.24C24.08 15.4498 23.95 15.3198 23.95 15.1598V12.2298C23.95 12.0698 24.08 11.9398 24.24 11.9398H30.5C30.82 11.9398 31.08 11.6798 31.08 11.3598Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M55.15 10.24C55.15 9.30115 54.3911 8.54004 53.455 8.54004C52.5189 8.54004 51.76 9.30115 51.76 10.24V24.09C51.76 25.0289 52.5189 25.79 53.455 25.79C54.3911 25.79 55.15 25.0289 55.15 24.09V10.24Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M135.91 10.2298C135.91 9.2909 135.151 8.52979 134.215 8.52979C133.279 8.52979 132.52 9.2909 132.52 10.2298V24.0798C132.52 25.0187 133.279 25.7798 134.215 25.7798C135.151 25.7798 135.91 25.0187 135.91 24.0798V10.2298Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M130.07 9.10979C130.07 8.78979 129.81 8.52979 129.49 8.52979H117.33C117.01 8.52979 116.75 8.78979 116.75 9.10979V11.3398C116.75 11.6598 117.01 11.9198 117.33 11.9198H121.43C121.59 11.9198 121.72 12.0498 121.72 12.2098V25.1998C121.72 25.5198 121.98 25.7798 122.3 25.7798H124.53C124.85 25.7798 125.11 25.5198 125.11 25.1998V12.2098C125.11 12.0498 125.24 11.9198 125.4 11.9198H129.5C129.82 11.9198 130.08 11.6598 130.08 11.3398V9.10979H130.07Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M67.3201 8.52979H63.2901C63.0801 8.52979 62.8901 8.65979 62.8301 8.85979L57.4601 25.1398C57.3601 25.4498 57.5901 25.7798 57.9201 25.7798H60.4801C60.6901 25.7798 60.8801 25.6498 60.9401 25.4498L61.6201 23.3998C61.6901 23.1998 61.8701 23.0698 62.0801 23.0698H68.5401C68.7501 23.0698 68.9401 23.1998 69.0001 23.3998L69.6801 25.4498C69.7501 25.6498 69.9301 25.7798 70.1401 25.7798H72.7001C73.0301 25.7798 73.2701 25.4598 73.1601 25.1398L67.7901 8.85979C67.7201 8.65979 67.5401 8.52979 67.3301 8.52979H67.3201ZM65.3201 12.2498L67.6801 19.4098C67.7201 19.5398 67.6301 19.6698 67.4901 19.6698H63.1201C62.9801 19.6698 62.8901 19.5398 62.9301 19.4098L65.2901 12.2498C65.2901 12.2498 65.3101 12.2398 65.3201 12.2498Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M157.25 7.37004C157.1 7.13004 156.97 6.96004 156.87 6.86004C156.82 6.81004 156.74 6.76004 156.65 6.72004C156.87 6.70004 157.05 6.62004 157.19 6.48004C157.33 6.34004 157.39 6.18004 157.39 5.99004C157.39 5.86004 157.35 5.73004 157.27 5.61004C157.19 5.49004 157.08 5.41004 156.94 5.36004C156.8 5.31004 156.59 5.29004 156.28 5.29004H155.39V7.87004H155.81V6.78004H156.06C156.21 6.78004 156.32 6.81004 156.39 6.87004C156.5 6.95004 156.65 7.15004 156.83 7.47004L157.06 7.88004H157.57L157.26 7.38004L157.25 7.37004ZM156.32 6.42004H155.81V5.65004H156.28C156.48 5.65004 156.62 5.67004 156.7 5.69004C156.77 5.72004 156.83 5.76004 156.88 5.82004C156.92 5.88004 156.94 5.95004 156.94 6.02004C156.94 6.14004 156.9 6.23004 156.81 6.30004C156.72 6.37004 156.56 6.41004 156.32 6.41004V6.42004Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M158.53 5.3499C158.32 4.9699 158.02 4.6699 157.63 4.4599C157.25 4.2499 156.85 4.1499 156.45 4.1499C156.05 4.1499 155.65 4.2499 155.27 4.4599C154.89 4.6699 154.59 4.9599 154.37 5.3499C154.16 5.7399 154.05 6.1399 154.05 6.5499C154.05 6.9599 154.16 7.3599 154.37 7.7399C154.58 8.1199 154.88 8.4199 155.26 8.6299C155.64 8.8399 156.04 8.9499 156.45 8.9499C156.86 8.9499 157.26 8.8399 157.64 8.6299C158.02 8.4199 158.32 8.1199 158.53 7.7399C158.74 7.3599 158.85 6.9599 158.85 6.5499C158.85 6.1399 158.74 5.7299 158.53 5.3499ZM158.19 7.5499C158.01 7.8699 157.77 8.1099 157.45 8.2899C157.13 8.4699 156.8 8.5599 156.46 8.5599C156.12 8.5599 155.78 8.4699 155.46 8.2899C155.14 8.1099 154.89 7.8699 154.72 7.5499C154.54 7.2299 154.45 6.8999 154.45 6.5599C154.45 6.2199 154.54 5.8799 154.72 5.5599C154.9 5.2399 155.15 4.9899 155.47 4.8199C155.79 4.6499 156.12 4.5599 156.46 4.5599C156.8 4.5599 157.12 4.6499 157.44 4.8199C157.76 4.9899 158.01 5.2399 158.19 5.5599C158.37 5.8799 158.46 6.2199 158.46 6.5599C158.46 6.8999 158.37 7.2399 158.2 7.5499H158.19Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M17.09 8.52979H14.46C14.22 8.52979 14 8.64979 13.88 8.85979L8.98 17.0398C8.92 17.1398 8.78 17.1398 8.73 17.0398L3.85 8.86979C3.72 8.65979 3.49 8.52979 3.24 8.52979H0.58C0.26 8.52979 0 8.78979 0 9.10979V25.2598C0 25.5398 0.23 25.7798 0.52 25.7798H2.9C3.18 25.7798 3.42 25.5498 3.42 25.2598V15.4698C3.42 15.2698 3.68 15.1998 3.78 15.3698L8.22 22.7798C8.31 22.9398 8.48 23.0298 8.66 23.0298H9.09C9.27 23.0298 9.44 22.9298 9.53 22.7798L13.92 15.4498C14.02 15.2798 14.28 15.3498 14.28 15.5498V25.2498C14.28 25.5298 14.51 25.7698 14.8 25.7698H17.18C17.46 25.7698 17.7 25.5398 17.7 25.2498V9.10979C17.7 8.78979 17.44 8.52979 17.12 8.52979H17.09Z" fill="#666666" fill-opacity="0.3" />
+                                </svg>
+                                <svg width="36" height="35" viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg" class="mediatip-mobile">
+                                    <path d="M18.12 10.6799C18.15 10.6199 18.41 10.1799 18.45 9.98992C19.04 7.03992 18.41 5.08992 17.29 3.60992C16.17 2.13992 14.98 1.41992 13.09 0.669922C5.54 2.79992 0 9.72992 0 17.9599C0 23.1599 2.21 27.8299 5.73 31.1099C5.9 27.3599 9.22 23.2999 12.88 24.6399C15.31 25.5299 16.56 24.8599 16.5 22.3499C16.5 22.1799 16.59 21.9999 16.68 21.8699C16.83 21.6699 17.23 21.6899 17.44 21.3699C17.87 20.7199 17.34 20.1599 17.34 20.1599C17.33 20.1599 17.53 20.0599 17.85 19.6799C17.97 19.5299 18.02 19.1499 17.97 18.9599C17.87 18.5099 17.36 17.9499 17.63 17.3999C17.7 17.2599 18.01 17.1799 18.3 17.0599C19.65 16.5299 19.03 15.4199 18.45 14.5199C16.94 12.1799 17.52 11.9099 18.11 10.6699L18.12 10.6799Z" fill="#666666" fill-opacity="0.3" />
+                                    <path d="M17.9699 0C17.2599 0 16.5699 0.04 15.8899 0.12C17.2499 0.16 18.5799 0.51 19.7399 1.16C21.1899 1.9 22.3399 3.21 23.0599 4.54C23.2799 4.97 23.3499 5.68 23.6899 5.96C23.7599 6.02 27.9499 8.27 28.8199 8.57C28.9199 8.61 29.0899 8.69 29.2699 8.78C29.5299 8.91 29.7499 9.03 29.8899 9.21C29.9899 9.34 30.0799 9.44 30.0799 9.71C30.0499 9.99 29.9099 10.25 29.7899 10.46C29.5099 10.96 29.3399 11.13 29.0699 11.62C28.9799 11.8 28.8799 12.09 28.9699 12.34C29.1499 12.92 29.6199 13.2 30.1299 13.43C30.4399 13.59 30.6699 13.69 30.7799 14.1C30.8199 14.51 30.5899 14.76 30.3399 15C30.2499 15.09 29.8299 15.48 30.2399 15.5C30.3999 15.54 30.5999 15.52 30.7599 15.55C30.9399 15.59 31.1699 15.57 31.3099 15.78C31.3699 15.87 31.4799 16.06 31.4699 16.26C31.4799 16.51 31.2499 16.77 31.1199 17.11C31.0699 17.23 31.3099 17.79 31.4399 17.91C32.3199 18.74 33.0499 19.56 32.2599 20.91C32.2199 20.98 31.8199 21.4 31.6699 21.51C30.8899 22.09 29.8399 22.46 28.9099 22.74C25.9399 23.64 23.7799 26.22 23.7499 29.16C23.7499 29.16 23.8499 31.87 25.4599 34.32C31.6499 31.48 35.9599 25.23 35.9599 17.98C35.9599 8.06 27.9199 0.01 17.9899 0.01L17.9699 0Z" fill="#666666" fill-opacity="0.3" />
+                                  </svg>
+                            </a>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div
+        </div>
+
+
+    </footer>
+    
+
+    <!-- swiper js -->
+    <script src="./js/swiper-bundle.min.js"></script>
+
+    
+    <!-- jquery -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+
+
+    <!-- mmenu -->
+    <script src="./js/mmenu-light.js"></script>
+
+    
+    <!-- bootstrap js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <!-- js -->
+    <script src="./js/front.js"></script>
+
+    <script>
+        const menu = new MmenuLight(document.querySelector("#mainMenu"), "(max-width: 1400px)");
+        var navigator = menu.navigation({
+            selectedClass: "selected",
+            slidingSubmenus: true,
+            theme: "dark",
+            title: "Меню",
+        });
+        var drawer = menu.offcanvas({
+            position: "left", 
+        });
+        document.querySelector('a[href="#mainMenu"]').addEventListener("click", (evnt) => {
+            evnt.preventDefault();
+            drawer.open();
+        });
+        document.querySelector(".close-menu-button").addEventListener("click", (evnt) => {
+            evnt.preventDefault();
+            drawer.close();
+        });
+
+       
+
+    </script>
+
+
+    <script>
+        //Удаляем лишние атрибуты у раскрывающихся пунктов мобильного меню
+        if ($(window).width() < 1400) {
+            let dropdownMenuLinks = document.querySelectorAll(".top-menu .dropdown-toggle");
+            dropdownMenuLinks.forEach(function(menuLink){
+                let menuLinkText = menuLink.innerHTML;
+                // Создаем новый span элемент, с текстовым содержанием, аналогичным текстовому содержанию ссылки
+                menuSpan = document.createElement("span");
+                menuSpan.textContent = menuLinkText;
+                // заменим ссылку menuLink на menuSpan
+                menuLink.replaceWith(menuSpan);
+            });
+        }
+    </script>
+
+
+  <script>
+    let counts = {};
+
+function updateCounter(id) {
+    const count = counts[id] || 0;
+    const counterValue = document.getElementById(`counterValue-${id}`);
+    const decrementButton = document.querySelector(`#counter-container-${id} .minus`);
+
+    if (count === 0) {
+        counterValue.textContent = '';
+        decrementButton.style.display = 'none';
+    } else {
+        counterValue.textContent = count;
+        decrementButton.style.display = 'inline-block';
+    }
+}
+
+function increment(id) {
+    counts[id] = (counts[id] || 0) + 1;
+    updateCounter(id);
+    document.getElementById(`counter-container-${id}`).classList.add('active');
+}
+
+function decrement(id) {
+    if (counts[id] > 0) {
+        counts[id]--;
+        updateCounter(id);
+    }
+    if (counts[id] === 0) {
+        document.getElementById(`counter-container-${id}`).classList.remove('active');
+    }
+}
+
+// Обновление счетчиков при загрузке страницы
+document.querySelectorAll('.counter-container').forEach((container) => {
+    const id = container.id.split('-')[2];
+    counts[id] = 0;
+    updateCounter(id);
+});
+
+  </script>
+
+</body>
+</html>

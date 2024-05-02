@@ -1,0 +1,166 @@
+// callback
+.callback {
+    margin-bottom: 4rem;
+
+    @media (max-width:767px) {
+        margin-bottom: 2rem;
+    }
+    @media (max-width:467px) {
+        margin-bottom: 0;
+    }
+
+    &__container {
+        h3 {
+            font-family: var(--third-family);
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 100%;
+            text-align: center;
+            color: var(--dark-blue);
+
+            margin-bottom: 72px;
+
+            @media (max-width:1660px) {
+                font-size: 38px;
+            }
+            @media (max-width:1440px) {
+                font-size: 36px;
+            }
+            @media (max-width:1380px) {
+                font-size: 32px;
+            }
+            @media (max-width:991px) {
+                font-size: 48px;
+                text-align: left;
+                margin-bottom: 40px;
+            }
+            @media (max-width:767px) {
+                font-size: 36px;
+                margin-bottom: 30px;
+            }
+            @media (max-width:567px) {
+                font-size: 32px;
+                margin-bottom: 20px;
+            }
+            @media (max-width:467px) {
+                font-size: 28px;
+                margin-bottom: 16px;
+            }
+            @media (max-width:425px) {
+                font-size: 24px;
+            }
+        }
+    }
+
+    &__form {
+
+        margin-bottom: 42px;
+
+        @media (max-width:1440px) {
+            margin-bottom: 32px;
+        }
+        @media (max-width:991px) {
+            margin-bottom: 24px;
+        }
+        @media (max-width:467px) {
+            margin-bottom: 20px;
+        }
+
+        button {
+            transition: .2s ease;
+            background-color: #747474;
+            border: none;
+            border-radius: 81px;
+
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 20px;
+            color: #fff;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+
+            &:hover {
+                background-color: var(--dark-blue) !important;
+            }
+
+        }
+
+        .col-md-7 {
+            @media (max-width:1660px) {
+                width: 83.33333333%;
+            }
+            @media (max-width:1380px) {
+                width: 83.33333333%;
+            }
+            @media (max-width:991px) {
+                width: 100%;
+                padding: 0;
+            }
+            @media (max-width:567px) {
+                padding: 0;
+            }
+        }
+
+        .row {
+            margin: 0 auto;
+            @media (max-width:767px) {
+                row-gap: 24px;
+            }
+            @media (max-wdth:567px) {
+                row-gap: 22px;
+            }
+            @media (max-width:467px) {
+                row-gap: 20px;
+            }
+
+            & > .col:not(button) {
+                width: 66.66666667%;
+                @media (max-width:767px) {
+                    width: 100%;
+                    padding: 0;
+                }
+            }
+
+            & > .col:nth-child(1) {
+                // display: flex;
+                padding-right: 0;
+                padding-left: 0;
+            }
+
+            & > button {
+                @media (max-width:991px) {
+                    font-size: 16px;
+                }
+                @media (max-width:767px) {
+                    padding: 15px 25px;
+                    height: 60px;
+                    justify-content: space-between;
+                }
+            }
+
+            @media (max-width:767px) {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+
+    &__tip {
+        padding-left: calc(var(--bs-gutter-x)* .25);
+
+        p {
+            a {
+                color: var(--blue);
+                transition: .2s ease;
+                &:hover {
+                    transition: .2s ease;
+                    text-shadow: 0 0 1px var(--blue);;
+                }
+            }
+        }
+    }
+    
+}

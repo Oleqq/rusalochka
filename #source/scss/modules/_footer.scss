@@ -1,0 +1,207 @@
+// footer
+.footer {
+
+    &-divider {
+        border-top: 1px solid #e7e7e9;
+        border-bottom: 1px solid #e7e7e9;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        font-family: var(--font-family);
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 150%;
+        color: var(--gray-65);
+        transition: .2s ease;
+
+        &:hover {
+            color: var(--blue);
+            transition: 0.2s ease;
+        }
+
+        b {
+            font-weight: 700;
+            transition: .2s ease;
+
+            &:hover {
+                color: var(--blue);
+                transition: 0.2s ease;
+            }
+        }
+    }
+
+    &__container {
+
+    }
+    &__wrapper {
+        padding: 20px 0 ;
+        
+    }
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        @media (max-width:867px) {
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            gap: 2rem;
+        }
+        @media (max-width:467px) {
+            gap: 0rem;
+            row-gap: 2rem;
+        }
+    }
+
+    &__block {
+        &.single-link {
+            @media (max-width:991px) {
+                display: none;
+            }
+        }
+
+        .socials {
+            display: flex;
+            margin-top: 1rem;
+            gap: 30px;
+            @media (max-width:767px) {
+                gap: 24px;
+            }
+            @media (max-width:467px) {
+                gap: 16px;
+            }
+
+            svg {
+                @media (max-width:567px) {
+                    width: 32px;
+                    height: 32px;
+                }
+                @media (max-width:467px) {
+                    height: 26px;
+                    width: 26px;
+                }
+            }
+        }
+    }
+
+    &__nav {
+        display: flex;
+
+        ul {
+            display: flex;
+            gap: 5rem;
+
+            @media (max-width:1820px) {
+                gap: 2rem;
+            }
+            @media (max-width:1660px) {
+                flex-direction: column;
+                gap: unset;
+            }
+        }
+    }
+
+    &__bottom {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+
+        @media (max-width:767px) {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        p {
+            font-family: var(--font-family);
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 150%;
+            color: var(--gray-65);
+            @media (max-width:1800px) {
+                font-size: 12px;
+            }
+            @media (max-width:1440px) {
+                font-size: 10px;
+            }
+        }
+    }
+
+    &__info {
+        max-width: 1200px;
+        @media (max-width:1920px) {
+            max-width: 1000px;
+        }
+        @media (max-width:1800px) {
+            max-width: 800px;
+        }
+        @media (max-width:1440px) {
+            max-width: 600px;
+        }
+        @media (max-width:1320px) {
+            max-width: 450px;
+        }
+        @media (max-width:767px) {
+            max-width: unset;
+        }
+    
+    }
+    &__by {
+        display: flex;
+        align-items: flex-start;
+        gap: 24px;
+
+        @media (max-width:410px) {
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        a {
+            transition: .2s ease;
+
+            &:hover {
+                transition: .2s ease;
+
+                svg {
+                    transition: .2s ease;
+                    
+                    path {
+                        transition: .2s ease;
+                        fill: var(--dark-blue);
+                        fill-opacity: 1;
+                    }
+                }
+            }
+
+            svg {
+                transition: .2s ease;
+
+                path {
+                    transition: .2s ease;
+                }
+
+            }
+
+            & > .mediatip-desktop {
+                @media (max-width:410px) {
+                    display: none;
+                }
+            }
+               
+            & > .mediatip-mobile {
+                display: none;
+                @media (max-width:410px) {
+                    display: block;
+                }
+            }
+        }
+
+        
+        
+    }
+}
